@@ -1,0 +1,15 @@
+ALGORITHM orthogonal
+VAR
+    ps,i:integer
+    v1,v2: array_of_real[50];        
+BEGIN
+    read(v1)
+    read(v2)
+    dot_product(ps)
+    IF (ps := 0) 
+    THEN
+        write("As orthogonal vectors we have :")
+    ELSE
+        write(ps)
+    END_IF
+END
